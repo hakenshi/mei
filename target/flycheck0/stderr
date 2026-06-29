@@ -1,0 +1,232 @@
+   0.017201200s  INFO prepare_target{force=false package_id=mei v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei) target="mei"}: cargo::core::compiler::fingerprint: fingerprint error for mei v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei)/Check { test: false }/TargetInner { name: "mei", doc: true, ..: with_path("C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei\\src\\main.rs", Edition2021) }
+   0.017508400s  INFO prepare_target{force=false package_id=mei v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei) target="mei"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-78b8519e46e1ae6d\bin-mei`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.028063000s  INFO prepare_target{force=false package_id=mei-agent v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-agent) target="mei_agent"}: cargo::core::compiler::fingerprint: fingerprint error for mei-agent v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-agent)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mei_agent", ["lib"], "C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei-agent\\src\\lib.rs", Edition2021) }
+   0.028253400s  INFO prepare_target{force=false package_id=mei-agent v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-agent) target="mei_agent"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-agent-3eae5f5136a5e74b\lib-mei_agent`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.028737700s  INFO prepare_target{force=false package_id=mei-provider v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-provider) target="mei_provider"}: cargo::core::compiler::fingerprint: fingerprint error for mei-provider v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-provider)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mei_provider", ["lib"], "C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei-provider\\src\\lib.rs", Edition2021) }
+   0.028753400s  INFO prepare_target{force=false package_id=mei-provider v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-provider) target="mei_provider"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-provider-f1e161183aa2f2d1\lib-mei_provider`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.029186400s  INFO prepare_target{force=false package_id=mei-session v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-session) target="mei_session"}: cargo::core::compiler::fingerprint: fingerprint error for mei-session v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-session)/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("mei_session", ["lib"], "C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei-session\\src\\lib.rs", Edition2021) }
+   0.029201200s  INFO prepare_target{force=false package_id=mei-session v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-session) target="mei_session"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-session-cfe297a8752b5c21\lib-mei_session`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_filter_source_repo
+  12: git_libgit2_prerelease
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: <unknown>
+  17: git_midx_writer_dump
+  18: git_filter_source_repo
+  19: git_midx_writer_dump
+  20: BaseThreadInitThunk
+  21: RtlUserThreadStart
+   0.029667200s  INFO prepare_target{force=false package_id=mei v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei) target="mei"}: cargo::core::compiler::fingerprint: fingerprint error for mei v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei)/Check { test: true }/TargetInner { name: "mei", doc: true, ..: with_path("C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei\\src\\main.rs", Edition2021) }
+   0.029682900s  INFO prepare_target{force=false package_id=mei v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei) target="mei"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-7886f8c8545dfd18\test-bin-mei`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.030180100s  INFO prepare_target{force=false package_id=mei-agent v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-agent) target="mei_agent"}: cargo::core::compiler::fingerprint: fingerprint error for mei-agent v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-agent)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("mei_agent", ["lib"], "C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei-agent\\src\\lib.rs", Edition2021) }
+   0.030196000s  INFO prepare_target{force=false package_id=mei-agent v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-agent) target="mei_agent"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-agent-d42563b2478e2eb6\test-lib-mei_agent`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.030644100s  INFO prepare_target{force=false package_id=mei-provider v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-provider) target="mei_provider"}: cargo::core::compiler::fingerprint: fingerprint error for mei-provider v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-provider)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("mei_provider", ["lib"], "C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei-provider\\src\\lib.rs", Edition2021) }
+   0.030659800s  INFO prepare_target{force=false package_id=mei-provider v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-provider) target="mei_provider"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-provider-28afa38c0efbbbd2\test-lib-mei_provider`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+   0.031109300s  INFO prepare_target{force=false package_id=mei-session v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-session) target="mei_session"}: cargo::core::compiler::fingerprint: fingerprint error for mei-session v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-session)/Check { test: true }/TargetInner { name_inferred: true, ..: lib_target("mei_session", ["lib"], "C:\\Users\\fkdia\\Desktop\\projetos\\mei\\mei-session\\src\\lib.rs", Edition2021) }
+   0.031128400s  INFO prepare_target{force=false package_id=mei-session v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-session) target="mei_session"}: cargo::core::compiler::fingerprint:     err: failed to read `C:\Users\fkdia\Desktop\projetos\mei\target\debug\.fingerprint\mei-session-3fe7fdf326bec3d9\test-lib-mei_session`
+
+Caused by:
+    O sistema não pode encontrar o arquivo especificado. (os error 2)
+
+Stack backtrace:
+   0: git_midx_writer_dump
+   1: git_midx_writer_dump
+   2: git_midx_writer_dump
+   3: git_midx_writer_dump
+   4: git_filter_source_repo
+   5: git_filter_source_repo
+   6: git_filter_source_repo
+   7: git_filter_source_repo
+   8: git_filter_source_repo
+   9: git_filter_source_repo
+  10: git_filter_source_repo
+  11: git_libgit2_prerelease
+  12: <unknown>
+  13: <unknown>
+  14: <unknown>
+  15: <unknown>
+  16: git_midx_writer_dump
+  17: git_filter_source_repo
+  18: git_midx_writer_dump
+  19: BaseThreadInitThunk
+  20: RtlUserThreadStart
+    Checking mei-agent v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-agent)
+    Checking mei-provider v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-provider)
+    Checking mei-session v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei-session)
+    Checking mei v0.1.0 (C:\Users\fkdia\Desktop\projetos\mei\mei)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.34s
